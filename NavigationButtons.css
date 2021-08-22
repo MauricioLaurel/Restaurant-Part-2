@@ -1,0 +1,38 @@
+/* Mauricio Laurel
+	08/18/2021 */
+
+/* external style sheet for navigation buttons */
+
+nav a {
+    background-color: steelblue;
+    color: floralwhite;
+    padding: 8px;
+    border: thin solid black;
+    text-decoration: none;
+    text-align: center;
+    margin: 5px;
+    width: 100px;
+    border-radius: 15px;
+    display: block;
+    float: left;
+}
+
+.clear-float {
+             clear: both;
+             }
+
+nav a:hover {
+background-color: mintcream;
+font-weight: bold;
+border: thin solid black;
+}
+
+nav a:active {
+font-weight: bold;
+}
+
+nav a:visited {
+color: peru;
+}
+
+    

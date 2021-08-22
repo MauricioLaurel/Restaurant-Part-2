@@ -1,0 +1,23 @@
+/* Mauricio Laurel */
+
+/* External style sheet to match header and footer across all pages */
+
+header, footer {
+               background-color: steelblue;
+               color: white;
+               height:  50px;
+               text-align: center;
+               padding: 1px 10px 80px 10px;
+               border: thin solid black;
+               margin-bottom: 10px;
+                }
+@font-face {
+    font-family: "deutsch_gothic";
+    src: url("./Fonts/Deutsch-webfont.woff") format("woff"),
+    font-weight: normal;
+    font-style: normal;
+}
+header {
+    font-size: 1.9em;
+    font-family: ;
+}

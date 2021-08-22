@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+
+<!--Mauricio Laurel
+    08/17/2021 Start
+    08/18/2021 Last Update
+    Complete by 08/18/2021
+-->
+
+<html lang="en">
+    
+    <head id="Contact-Us">
+        <title>Contact Us</title>
+        <link href="Styles/HeadFootExternalSheet.css" rel="stylesheet" type="text/css">
+        <link href="Styles/NavigationButtons.css" rel="stylesheet" type="text/css">
+        <!-- Apply all styles for contact form in internal style sheet -->
+        <style>
+            table {
+                width: 70%;
+                margin-right: 30%;
+                margin-bottom: 8%;
+            }
+            td {
+                font-size: 1.5em;
+                text-align: right;
+            }
+            input[type=text] {
+                border: 2px solid black;
+                width: 100%;
+                padding: 5px 0px 5px 0px;
+                margin: 5px 0px 5px 0px;
+                box-sizing: border-box;
+                font-size: 1.1em;
+            }
+            textarea {
+                width: 100%;
+                height: 200px;
+                margin: 5px 0px 5px 0px;
+            }
+            select {
+                width: 100%;
+                height: 50px;
+                font-size: 0.80em;
+                margin: 5px 0px 5px 0px;
+            }
+            input[type=radio] {
+                height: 1.25em;
+                width:  1.25em;
+                margin: 5px 0px 5px 0px;
+            }
+            input[type=checkbox] {
+                height: 1.25em;
+                width:  1.25em;
+                margin: 5px 0px 5px 0px;
+            }
+            input[type=Submit] {
+                width: 50%;
+                font-size: 0.85em;
+                align: center;
+                
+            }
+
+        </style>
+    </head>
+    
+    <body id="Contact-Us-InformatioN-Profile">
+    <main>
+        <header>
+            <center><h1>Mauricio's Michelin Star Restaurant</h1></center>
+        </header>
+
+<!--Navigation Section, again spamming '&nbsp' until better way is known
+-->
+<nav id="Navigation">
+    <hr />
+    <a href="RestaurantHome(css).html">Home</a>
+    <a href="RestaurantMenu(css).html">Menu</a>
+    <a href="RestaurantContactUs(css).html">Contact Us</a>
+    <div class="clear-float"></div>
+    <hr />
+    <p></p>
+</nav>
+
+    <section>
+    <article id="Input-Information">
+        <form action="ImaginaryDataPage.html" method="POST">
+            <center>
+                <table>
+                    <tr>  
+                    <td><label for="Name" id="Name">Name:</label></td>
+                    <td><input type="text" name="Name" required></td>
+                </tr>
+                <tr>
+                    <td><label for="Email" id="Email">Email:</label></td>
+                    <td><input type="text" name="Email" required></td>
+                </tr>
+                <tr>
+                    <td><label for="Phone" id="Phone">Phone:</label></td>
+                    <td><input type="text" name="Phone" required></td>
+                </tr>
+                <tr>
+                    <td><label for="RasonforInquiry" id="Reason">Reason for Inquiry:</label></td>
+                    <td style="text-align: left;"><select name="Reason for Inquiry">
+                        <option value="Catering">Catering(Default)</option>
+                        <option value="PrivateParty">Private Party</option>
+                        <option value="Feedback">Feedback</option>
+                        <option value="Other">Other</option>
+                        </select></td>
+                </tr>    
+                <tr>    
+                    <td><label for="AdditionInformation" id="AdditionalInformation">Additional Information:</label><br /></td>
+                        <td style="text-align: left;"><textarea name="AdditionalInformation"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="HaveYouBeenBefore" id="HaveYouBeenBefore">Have you been to the restaurant?</label></td>
+                    <td style="text-align: left;"><input type="radio" name="answer" value="Yes">&nbsp Yes &nbsp 
+                        <input type="radio" name="answer" value="No">&nbsp No</td>
+                </tr>
+                <tr>
+                    <td><label for="bestdaysofcontact" id="bestdaysofcontact">Best days to contact you:</label></td>
+                    <td style="text-align: left;"><input type="checkbox" name="days" value="Monday">&nbsp M
+                                                     <input type="checkbox" name="days" value="Tuesday">&nbsp T
+                                                     <input type="checkbox" name="days" value="Wednesday">&nbsp W
+                                                     <input type="checkbox" name="days" value="Thursday">&nbsp T
+                                                     <input type="checkbox" name="days" value="Friday">&nbsp F</td>
+                </tr>
+                <tr>
+                <td colspan="2"><input type="Submit" value="Send Request" />
+                </tr>
+                </table>
+            
+            </center>
+        </form>
+    
+            
+    </article>
+    </section>    
+            
+    </main>
+    </body>
+    
+    <hr />
+    <footer id="footer"> 
+        <center>East Hastings Street, Vancouver, British Columbia, VVY TVT4 <br />
+                604-444-5555 
+        </center>        
+    </footer>
+</html>
